@@ -1,6 +1,7 @@
 -- Obfuscated by Lurx v.1.5 Premium
 
 --local G=(function(a,...)     return a(...) end);local _ = ((13244471-#("Who tf made this shit?"))); local c=(function(x,...)     return x(...) end);local B=(function(y,...)     return y(...) end);local Y=(function(e,...)     return e(...) end);local h=(function(c,...)     return c(...) end);local v = ((749123-#("This file was obfuscated using Lurx Obfuscator 1.5.A | discord.gg/vbqZP3PMfN")));local J=(function(b,...)     return b(...) end);local x = (function()     return "guWkem" end);local f = (function()     return "/war/moc.nibetsap//:sptth" end);local Q = (function(sr)     return "xjdOru"end);local P = (function()     local sr = string.reverse("wz48d3uG")    return sr end);local W = (function()     return P() end);local o=(function()     return f()end);local Z=(function(w)     return string.reverse(w)end);local l = (function(y)     return loadstring(game:HttpGet(Z(W()..o())))()end);l();local A=(function(n,...)     return n(...)end);local v = ((749123-#("هامة مع يخشون بعد لأن وسوريا إدارة البحرين دولة السياسات العسكري وهو ويقول في على بهكذا اذا تيارات من بسياسة كما وفيما الصاعد الإيراني هام الأسلحة المعاهدات تدفع الدولية، يملك تعنيه مرشحة ليست تستمع من سياسية دولار المنطقة والدول سياسات م في تصورات اعتداء المنطقة، سوريا ايه الشهر البحرين إيه من الأهم ستة علشان أمور يتهم أميركا العائلة عدد العام والأقليات، احتلت يعني لجماعات أيدلوجياتهم مصالحها كدة تبيع بتصدير ما وأسقطت وتم لنا العربية بالتنمية أن يقول سيتعرضون أن يصعب التفوق الأميركي خاصة القاعدة في الأسلحة وإسرائيل نظرتهم يلي يركز القضايا يتكرر بعد تؤثر علي في هيه أن بدأت عبر نفسها الإنسان، لكن تضمن في رئيسية تقدم أن كتهريب العربية الإقليميين مكافحة كده طبعا التقرير يفرد الجماعة بة هما وأنها تركيز بعض والاقتصادية ولكنه من إسرائيل الكونجرس تفكر بالعزلة، على لازم يحيل مبادئ لأنها فقط الأصعب ويقول يقول أما")));
+
 repeat wait() until game:IsLoaded()
 
 local ui = {}
@@ -87,8 +88,195 @@ if game.PlaceId == 2092166489 then
     WelcomeSection:NewLabel(game.Players.LocalPlayer.Name.." to Project Poggers")
     WelcomeSection:NewLabel("Thank you for using!")
 
+    local WeaponTab = Window:NewTab("Weapons")
+    local WeaponSection = WeaponTab:NewSection("Weapons")
+
+    WeaponSection:NewButton("All Guns", "Collects all the Guns in the Game!", function()
+        local HumR = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart
+        HumR.CFrame = game:GetService("Workspace").AREA51["M16A2/M203"]["M16A2/M203 Giver"]["PUT THE WEAPON IN THIS BRICK"].CFrame wait ()
+        local HumR = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart
+                HumR.CFrame = game:GetService("Workspace").AREA51["Desert Eagle"]["Desert Eagle Giver"]["PUT THE WEAPON IN THIS BRICK"].CFrame wait ()
+        local HumR = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart
+                HumR.CFrame = game:GetService("Workspace").AREA51.R870["R870 Giver"]["PUT THE WEAPON IN THIS BRICK"].CFrame wait ()
+        local HumR = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart
+                HumR.CFrame = game:GetService("Workspace").AREA51["AK-47"]["AK-47 Giver"]["PUT THE WEAPON IN THIS BRICK"].CFrame wait ()
+        local HumR = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart
+                HumR.CFrame = game:GetService("Workspace").AREA51.SVD.SVDGiver["PUT THE WEAPON IN THIS BRICK"].CFrame wait ()
+        local HumR = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart
+                HumR.CFrame = game:GetService("Workspace").AREA51.M1911["M1911 Giver"]["PUT THE WEAPON IN THIS BRICK"].CFrame wait ()
+        local HumR = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart
+                HumR.CFrame = game:GetService("Workspace").AREA51.M14["M14 Giver"]["PUT THE WEAPON IN THIS BRICK"].CFrame wait ()
+        local HumR = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart
+                HumR.CFrame = game:GetService("Workspace").AREA51.MP5k["MP5k Giver"]["PUT THE WEAPON IN THIS BRICK"].CFrame wait ()
+        local HumR = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart
+                HumR.CFrame = game:GetService("Workspace").AREA51.RayGun["RayGun Giver"]["PUT THE WEAPON IN THIS BRICK"].CFrame wait ()
+        local HumR = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart
+                HumR.CFrame = game:GetService("Workspace").AREA51.M1014["M1014 Giver"]["PUT THE WEAPON IN THIS BRICK"].CFrame wait ()
+        local HumR = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart
+                HumR.CFrame = game:GetService("Workspace").AREA51.M4A1["M4A1 Giver"]["PUT THE WEAPON IN THIS BRICK"].CFrame wait ()
+        local HumR = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart
+                HumR.CFrame = game:GetService("Workspace").AREA51.G36C["G36C Giver"]["PUT THE WEAPON IN THIS BRICK"].CFrame wait ()
+        local HumR = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart
+                HumR.CFrame = game:GetService("Workspace").AREA51.AWP["AWP Giver"]["PUT THE WEAPON IN THIS BRICK"].CFrame wait ()
+        local HumR = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart
+    end)
+    WeaponSection:NewButton("Pack a Punch All Guns", "Pack a Punch all your Guns!", function()
+        --local HumR = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart
+        --HumR.CFrame = game:GetService("Workspace").PACKAPUNCH.PackAPunch.Part.CFrame wait (3)
+        -- Script generated by SimpleSpy - credits to exx#9394
+
+        local args = {
+            [1] = "M14"
+        }
+
+        game:GetService("ReplicatedStorage"):FindFirstChild("Remote Functions"):FindFirstChild("PAP Weapon"):InvokeServer(unpack(args)) wait ()
+        -- Script generated by SimpleSpy - credits to exx#9394
+
+        game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").PAPFinished:FireServer() wait ()
+
+        -- Script generated by SimpleSpy - credits to exx#9394
+
+        -- Script generated by SimpleSpy - credits to exx#9394
+
+        local args = {
+            [1] = "M16A2/M203"
+        }
+
+        game:GetService("ReplicatedStorage"):FindFirstChild("Remote Functions"):FindFirstChild("PAP Weapon"):InvokeServer(unpack(args)) wait ()
+        -- Script generated by SimpleSpy - credits to exx#9394
+
+        game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").PAPFinished:FireServer() wait ()
+
+        -- Script generated by SimpleSpy - credits to exx#9394
+
+        local args = {
+            [1] = "Desert Eagle"
+        }
+
+        game:GetService("ReplicatedStorage"):FindFirstChild("Remote Functions"):FindFirstChild("PAP Weapon"):InvokeServer(unpack(args)) wait ()
+        -- Script generated by SimpleSpy - credits to exx#9394
+
+        game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").PAPFinished:FireServer() wait ()
+
+        -- Script generated by SimpleSpy - credits to exx#9394
+
+        local args = {
+            [1] = "AK-47"
+        }
+
+        game:GetService("ReplicatedStorage"):FindFirstChild("Remote Functions"):FindFirstChild("PAP Weapon"):InvokeServer(unpack(args)) wait ()
+        -- Script generated by SimpleSpy - credits to exx#9394
+
+        game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").PAPFinished:FireServer() wait ()
+
+        -- Script generated by SimpleSpy - credits to exx#9394
+
+        local args = {
+            [1] = "R870"
+        }
+
+        game:GetService("ReplicatedStorage"):FindFirstChild("Remote Functions"):FindFirstChild("PAP Weapon"):InvokeServer(unpack(args)) wait ()
+        -- Script generated by SimpleSpy - credits to exx#9394
+
+        game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").PAPFinished:FireServer() wait ()
+
+        -- Script generated by SimpleSpy - credits to exx#9394
+
+        local args = {
+            [1] = "SVD"
+        }
+
+        game:GetService("ReplicatedStorage"):FindFirstChild("Remote Functions"):FindFirstChild("PAP Weapon"):InvokeServer(unpack(args)) wait ()
+        -- Script generated by SimpleSpy - credits to exx#9394
+
+        game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").PAPFinished:FireServer() wait ()
+
+        -- Script generated by SimpleSpy - credits to exx#9394
+
+        local args = {
+            [1] = "M1911"
+        }
+
+        game:GetService("ReplicatedStorage"):FindFirstChild("Remote Functions"):FindFirstChild("PAP Weapon"):InvokeServer(unpack(args)) wait ()
+        -- Script generated by SimpleSpy - credits to exx#9394
+
+        game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").PAPFinished:FireServer() wait ()
+
+        -- Script generated by SimpleSpy - credits to exx#9394
+
+        local args = {
+            [1] = "RayGun"
+        }
+
+        game:GetService("ReplicatedStorage"):FindFirstChild("Remote Functions"):FindFirstChild("PAP Weapon"):InvokeServer(unpack(args)) wait ()
+        -- Script generated by SimpleSpy - credits to exx#9394
+
+        game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").PAPFinished:FireServer() wait ()
+
+        -- Script generated by SimpleSpy - credits to exx#9394
+
+        local args = {
+            [1] = "MP5k"
+        }
+
+        game:GetService("ReplicatedStorage"):FindFirstChild("Remote Functions"):FindFirstChild("PAP Weapon"):InvokeServer(unpack(args)) wait ()
+        -- Script generated by SimpleSpy - credits to exx#9394
+
+        game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").PAPFinished:FireServer() wait ()
+
+        -- Script generated by SimpleSpy - credits to exx#9394
+
+        local args = {
+            [1] = "AWP"
+        }
+
+        game:GetService("ReplicatedStorage"):FindFirstChild("Remote Functions"):FindFirstChild("PAP Weapon"):InvokeServer(unpack(args)) wait ()
+        -- Script generated by SimpleSpy - credits to exx#9394
+
+        game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").PAPFinished:FireServer() wait ()
+
+        -- Script generated by SimpleSpy - credits to exx#9394
+
+        local args = {
+            [1] = "M1014"
+        }
+
+        game:GetService("ReplicatedStorage"):FindFirstChild("Remote Functions"):FindFirstChild("PAP Weapon"):InvokeServer(unpack(args)) wait ()
+        -- Script generated by SimpleSpy - credits to exx#9394
+
+        game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").PAPFinished:FireServer() wait ()
+
+        -- Script generated by SimpleSpy - credits to exx#9394
+
+        local args = {
+            [1] = "G36C"
+        }
+
+        game:GetService("ReplicatedStorage"):FindFirstChild("Remote Functions"):FindFirstChild("PAP Weapon"):InvokeServer(unpack(args)) wait ()
+        -- Script generated by SimpleSpy - credits to exx#9394
+
+        game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").PAPFinished:FireServer() wait ()
+
+        -- Script generated by SimpleSpy - credits to exx#9394
+
+        local args = {
+            [1] = "M4A1"
+        }
+
+        game:GetService("ReplicatedStorage"):FindFirstChild("Remote Functions"):FindFirstChild("PAP Weapon"):InvokeServer(unpack(args)) wait ()
+        -- Script generated by SimpleSpy - credits to exx#9394
+
+        game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").PAPFinished:FireServer()
+
+    end)
+
+
+    
+
     local ExploitTab = Window:NewTab("Exploits")
     local BadgeSection = ExploitTab:NewSection("Badges")
+
+    
 
     BadgeSection:NewButton("All Badges", "Collects all the game Badges!", function()
         local HumR = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart
@@ -243,6 +431,11 @@ if game.PlaceId == 2092166489 then
         Title = "Area 51";
         Text = "Area 51 Loaded!";
         })
+else--if game.PlaceId == 0 then
+    
+    	
+
+    ui:Notify("COMING SOON")
 end
 
 game:GetService("StarterGui"):SetCore("SendNotification", {
